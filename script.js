@@ -17,7 +17,7 @@ document.getElementById('medical-data-form').addEventListener('submit', function
     }
     
     // Gửi dữ liệu đến Google Sheets
-    fetch('YOUR_GOOGLE_SCRIPT_URL', {
+    fetch('https://script.google.com/macros/s/AKfycbxSof9hkRnJZBh8m-TUFlYYsjcy8ZPH_s_SFwLP52CQuqY59V5xlpIEOTNbofvpL3khDA/exec', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
